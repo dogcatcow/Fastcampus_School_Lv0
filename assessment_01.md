@@ -27,3 +27,24 @@
 
 4. github이란 무엇인가요?
     - 버전관리와 호스팅 서비스 
+
+## [심화1] 서술형으로 풀기
+1. git에는 원격저장소와 로컬저장소가 있는데 이 둘의 차이점은 무엇인가요? 
+    - 원격: 서버에 저장(업로드), 로컬: 내 컴퓨터에 저장
+    
+2. git에서 원격 저장소의 상태를 확인하기위해 사용하는 명령어는 무엇인가요?
+    - git status
+ 
+## [심화2] 실습해보기
+아래 순서를 기반으로 git에 대해 설명하는 파일을 하나 작성한 뒤 github에 업로드 해보세요.
+
+폴더를 만든 뒤 폴더에 들어가서 .git 디렉토리를 git init 명령어를 통해 설치해줍니다.
+txt 파일을 만들어줍니다.
+파일을 열고 임의의 제목을 입력한뒤 Staging area에 변경사항을 저장하고, Repository에 변경사항을 저장해줍니다. (git add -> git commit)
+본문 내용을 1/3만 입력하고 똑같이 Staging area에 변경사항을 저장한 뒤, Repository에 변경사항을 저장해줍니다. (git add, git commit)
+[4번] 작업을 두 번 더 반복해줍니다. 
+커밋이 4개가 쌓였을 것입니다! github 저장소를 새로 만든 뒤 해당 저장소를 업로드해 주세요.
+업로드된 파일들이 담긴 github (원격) 저장소의 링크를 제출해주세요.
+
+
+https://github.com/dogcatcow/Fastcampus_School_Lv0/commits/master/random.txt
